@@ -1,0 +1,49 @@
+{
+  "name": "@9wick/hexo-migrator-zenn",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/9wick/hexo-migrator-zenn.git"
+  },
+  "keywords": [
+    "hexo",
+    "zenn",
+    "migrator"
+  ],
+  "author": "9wick <kido@9wick.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9wick/hexo-migrator-zenn/issues"
+  },
+  "homepage": "https://github.com/9wick/hexo-migrator-zenn#readme",
+  "devDependencies": {
+    "@tsconfig/strictest": "^1.0.2",
+    "@types/hexo-fs": "^0.2.10",
+    "@types/hexo-util": "^0.6.5",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/hexo": "^3.8.8",
+    "camaro": "^6.0.2",
+    "got": "^11.0.1",
+    "hexo-fs": "^3.0.1",
+    "hexo-util": "^2.1.0",
+    "node-fetch": "^3.2.10",
+    "node-fetch-commonjs": "^3.2.4",
+    "rss-parser": "^3.12.0",
+    "turndown": "^6.0.0",
+    "utility-types": "^3.10.0"
+  }
+}
