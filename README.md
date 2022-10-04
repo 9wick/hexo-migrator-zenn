@@ -23,7 +23,7 @@ $ hexo migrate zenn <username> [--options]
 - **limit**: Maximum number of posts to import from the feed. All posts are imported by default.
     * Example:
   ``` bash
-  $ hexo migrate qiita wicket --redirect --addtag
+  $ hexo migrate zenn wicket --redirect --addtag
   ```
 - **skipduplicate**: Skip posts with similar title as existing ones.
     * If a feed contains a post titled 'Foo Bar' and there is an existing post named 'Foo-Bar.md', then that post will not be migrated.
